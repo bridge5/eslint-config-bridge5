@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bridge5",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ESLint and Prettier Config from Bridge5",
   "keywords": [
     "javascript",
