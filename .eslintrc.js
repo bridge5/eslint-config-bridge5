@@ -45,6 +45,10 @@ module.exports = {
         "destructuring": "all",
       }
     ],
+    "arrow-parens": [
+      2,
+      "as-needed"
+    ],
     "arrow-body-style": [
       2,
       "as-needed"
@@ -111,22 +115,6 @@ module.exports = {
         "allowTemplateLiterals": true
       }
     ],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "all",
-        "proseWrap": "preserve",
-        "requirePragma": false,
-        "insertPragma": false,
-        "bracketSpacing": true,
-        "jsxBracketSameLine": true,
-        "singleQuote": false,
-        "printWidth": 120,
-        "cursorOffset": -1,
-        "tabWidth": 2,
-        "semi": true,
-      }
-    ],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
@@ -137,11 +125,11 @@ module.exports = {
       }
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
   },
   "plugins": [
     "html",
     "prettier",
     "react-hooks"
   ]
-}
+};
