@@ -105,7 +105,7 @@ module.exports = {
     ],
     "quotes": [
       2,
-      "single",
+      "double",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
