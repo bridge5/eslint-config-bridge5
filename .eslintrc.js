@@ -48,6 +48,13 @@ module.exports = {
         props: false,
       },
     ],
+    "no-shadow": [
+      2,
+      {
+        hoist: "all",
+        allow: ["resolve", "reject", "done", "next", "err", "error"],
+      },
+    ],
     "no-console": 0,
     "prefer-const": [
       "error",
@@ -97,6 +104,9 @@ module.exports = {
     ],
     "jsx-a11y/href-no-hash": "off",
     "react/forbid-prop-types": "off",
+    "react/forbid-foreign-prop-types": "off",
+    "react/display-name": "off",
+    "react/no-array-index-key": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-no-target-blank": "off",
     "react/jsx-props-no-spreading": "off",
