@@ -62,6 +62,7 @@ module.exports = {
         destructuring: "all",
       },
     ],
+    "no-underscore-dangle": "off",
     "arrow-body-style": [2, "as-needed"],
     "consistent-return": "off",
     "import/extensions": "off",
