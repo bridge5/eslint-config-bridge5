@@ -112,6 +112,7 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     "react/jsx-no-target-blank": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-fragments": ["warn", "element"],
     "react/jsx-sort-props": [
       "warn",
       {
