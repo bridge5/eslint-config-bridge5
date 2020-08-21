@@ -63,6 +63,7 @@ module.exports = {
       },
     ],
     "arrow-body-style": [2, "as-needed"],
+    "consistent-return": "off",
     "import/extensions": "off",
     "import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": "off",
