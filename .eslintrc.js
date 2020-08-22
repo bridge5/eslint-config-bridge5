@@ -70,7 +70,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "import/no-named-as-default": "off",
     "import/no-unresolved": "off",
-    "import/prefer-default-export": "error",
+    "import/prefer-default-export": "off",
     "newline-per-chained-call": "off",
     "no-confusing-arrow": "off",
     "no-use-before-define": "off",
