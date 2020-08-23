@@ -55,9 +55,9 @@ module.exports = {
         allow: ["resolve", "reject", "done", "next", "err", "error"],
       },
     ],
-    "no-console": 0,
+    "no-console": "off",
     "prefer-const": [
-      "error",
+      "warn",
       {
         destructuring: "all",
       },
