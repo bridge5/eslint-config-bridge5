@@ -74,6 +74,7 @@ module.exports = {
     "newline-per-chained-call": "off",
     "no-confusing-arrow": "off",
     "no-use-before-define": "off",
+    "no-nested-ternary": "off",
     "func-names": 0,
     "comma-dangle": 0,
     "space-before-function-paren": 0,
@@ -113,16 +114,7 @@ module.exports = {
     "react/jsx-no-target-blank": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-fragments": ["warn", "element"],
-    "react/jsx-sort-props": [
-      "warn",
-      {
-        callbacksLast: true,
-        shorthandFirst: false,
-        shorthandLast: true,
-        ignoreCase: true,
-        noSortAlphabetically: false,
-      },
-    ],
+    "react/jsx-sort-props": "off",
     "react/require-extension": "off",
     "react/sort-prop-types": [
       "warn",
