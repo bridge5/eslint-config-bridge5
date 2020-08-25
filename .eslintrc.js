@@ -36,12 +36,7 @@ module.exports = {
         argsIgnorePattern: "res|next|^err",
       },
     ],
-    "no-unused-expressions": [
-      2,
-      {
-        allowTaggedTemplates: true,
-      },
-    ],
+    "no-unused-expressions": "off",
     "no-param-reassign": [
       2,
       {
