@@ -92,6 +92,7 @@ module.exports = {
         printWidth: 100,
       },
     ],
+    "eslint-disable-next-line": "off",
     "jsx-a11y/label-has-for": [
       "warn",
       {
