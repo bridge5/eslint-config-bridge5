@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bridge5",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "ESLint and Prettier Config from Bridge5",
   "main": "index.js",
   "repository": "git@github.com:bridge5/eslint-config-bridge5.git",
