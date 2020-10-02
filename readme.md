@@ -1,32 +1,50 @@
 # eslint-config-bridge5
 
-A shareable ESLint configuration for bridge5 projects
+Node Style Guide for bridge5.
 
 ## Install
 
-```
-$ npm install eslint-config-bridge5 --save-dev
+```bash
+$ npm i eslint eslint-config-bridge5 --save-dev
 ```
 
 ## Usage
 
-This config can be used one of two ways:
+- `.eslintrc.js`
 
-### package.json:
+```js
+module.exports = {
+  extends: "bridge5",
+};
+```
+
+### Use with Experimental Features
+
+If you want to use eslint-config-bridge5 with experimental features such as `async function`, you should use `babel-eslint` parser:
+
+- `package.json`
 
 ```json
 {
-  "name": "bridge5-components",
-  "eslintConfig": {
-    "extends": "bridge5"
+  "devDependencies": {
+    "eslint-config-bridge5": "0.1.0",
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2",
+    "babel-eslint": "^10.1.0"
   }
 }
 ```
 
-### .eslintrc
+- `.eslintrc.js`
 
-```json
-{
-  "extends": "bridge5"
-}
+```js
+module.exports = {
+  extends: "eslint-config-bridge5",
+  parser: "babel-eslint",
+  rules: {
+    // see https://github.com/eslint/eslint/issues/6274
+    "generator-star-spacing": "off",
+    "babel/generator-star-spacing": "off",
+  },
+};
 ```
