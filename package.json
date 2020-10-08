@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-bridge5",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Developer Tools for Project bridge5",
   "homepage": "https://bridge5.org",
   "repository": "git@github.com:bridge5/eslint-config-bridge5",
   "bugs": "https://github.com/bridge5/eslint-config-bridge5/issues",
-  "main": "index.js",
+  "main": "react.js",
   "files": [
     ".eslintrc",
     "index.js",

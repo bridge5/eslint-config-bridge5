@@ -14,9 +14,11 @@ module.exports = {
       impliedStrict: true,
       classes: true,
     },
+    sourceType: "module",
   },
   env: {
     browser: true,
     jest: true,
+    node: true,
   },
 };
