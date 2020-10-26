@@ -5,7 +5,7 @@
   "homepage": "https://bridge5.org",
   "repository": "git@github.com:bridge5/eslint-config-bridge5",
   "bugs": "https://github.com/bridge5/eslint-config-bridge5/issues",
-  "main": "react.js",
+  "main": "index.js",
   "files": [
     ".eslintrc",
     "index.js",
@@ -51,14 +51,14 @@
     "kill-port": "^1.6.1",
     "prettier": "^2.1.2",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "eslintIgnore": [
     "node_modules/*",
