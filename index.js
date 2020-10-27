@@ -6,6 +6,10 @@ module.exports = {
   extends: builtin.concat(["plugin:eggache/recommended"]),
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: "script",
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+      classes: true,
+    },
+    sourceType: "module",
   },
 };
