@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-bridge5",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Developer Tools for Project bridge5",
-  "homepage": "https://bridge5.org",
+  "homepage": "https://eslint.bridge5.org",
   "repository": "git@github.com:bridge5/eslint-config-bridge5",
   "bugs": "https://github.com/bridge5/eslint-config-bridge5/issues",
   "prettier": "prettier-config-bridge5",
