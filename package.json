@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bridge5",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Developer Tools for Project bridge5",
   "homepage": "https://eslint-config.bridge5.org",
   "repository": "git@github.com:bridge5/eslint-config-bridge5",
